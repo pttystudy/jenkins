@@ -71,7 +71,7 @@ class NcpApi():
 
             method = "GET"
             host="https://ncloud.apigw.ntruss.com"
-            uri="/vserver/v2/addAccessControlGroupInboundRule?regionCode=KR&responseFormatType=json&vpcNo=45750&accessControlGroupNo=161127&accessControlGroupRuleList.N.protocolTypeCode=TCP&responseFormatType=json"
+            uri="/vserver/v2/addAccessControlGroupInboundRule?regionCode=KR&responseFormatType=json&vpcNo=45750&accessControlGroupNo=161127&accessControlGroupRuleList.1.protocolTypeCode=TCP&&accessControlGroupRuleList.1.ipBlock=0.0.0.0/0&accessControlGroupRuleList.1.portRange=80"
             url=host+uri 
             signature_key = self.make_signature(method, uri)
             
