@@ -1,0 +1,14 @@
+token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzcGFjZW9uZS5pZGVudGl0eSIsInR5cCI6IkNMSUVOVF9TRUNSRVQiLCJvd24iOiJBUFAiLCJkaWQiOiJkb21haW4tMTAyMjJmMjMyNGM1IiwiYXVkIjoiYXBwLTYwYzVlYWU3ZWJmYiIsImp0aSI6ImNsaWVudC0wZjhiNGYyNGYyM2IiLCJpYXQiOjE3MDU5MDExNjUsInZlciI6IjIuMCIsImV4cCI6MTczNzQwNDc2NSwicm9sIjoiRE9NQUlOX0FETUlOIiwid2lkIjoiKiJ9.Q4f9sA3Ar2Q36Fk8PSU-tglOep0Qpr79Rci3x-qDxRuCuXplAsJ4_rH9FlE7bI4CUd3FpQK3I21KriIx_PIESHNIkXP5zNAsX3zifrdKwwyYu9CsVaVhQdVtJXzNN-Ryp4j76c_SfdQkB7WeGvmK33txiV8vSYqfoUMmtndP6QaU2j2rlyc7ULTAMjiXc_Z54PfAegG_WlxiGTXKyd-AZtU7jAcwpR-ndIQiX6LkXUPLUR2xTF8Ul0h6A7VAHWMMcypfeiOBydYypHuzFE7sjq2CpiBxXvpG_nVmeEsUnUVzl6nXoRGwmrMRy0mcvmmdZcJ3mx7OVWl65txwxmz_VA
+endpoints:
+  identity: grpc+ssl://identity.api.stg.spaceone.dev:443/v1
+  inventory: grpc+ssl://inventory.api.stg.spaceone.dev:443/v1
+  repository: grpc+ssl://repository.api.stg.spaceone.dev:443/v1
+  secret: grpc+ssl://secret.api.stg.spaceone.dev:443/v1
+  monitoring: grpc+ssl://monitoring.api.stg.spaceone.dev:443/v1
+  config: grpc+ssl://config.api.stg.spaceone.dev:443/v1
+  statistics: grpc+ssl://statistics.api.stg.spaceone.dev:443/v1
+  notification: grpc+ssl://notification.api.stg.spaceone.dev:443/v1
+  cost_analysis: grpc+ssl://cost-analysis.api.stg.spaceone.dev:443/v1
+  board: grpc+ssl://board.api.stg.spaceone.dev:443/v1
+  file_manager: grpc+ssl://file-manager.api.stg.spaceone.dev:443/v1
+  dashboard: grpc+ssl://dashboard.api.stg.spaceone.dev:443/v1
